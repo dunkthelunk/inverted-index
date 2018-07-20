@@ -1,16 +1,27 @@
-Example search queries:
-Mulsanne & mulliner - W.O.
-Julius - caesar
-(osman | Asaf Jah VII) & billion 
+## Inverted Index
+  * description
+  * benchmarks
+  * why did I write this
+  * what did I learn
 
-Query Grammar:
-expr  : uset (NOT uset)\*
-uset  : nset (OR nset)\*
-nset  : set (AND set)\*
-set   : WORD | LPAREN expr RPAREN
+## Search Interface
+  * case insensitive
+  * space between words is treated as '&'
+  * complex queries can be constructed; used AST to parse
+  * examples
+  
+    mulsanne & mulliner - W.O.
 
-nset('∩'set) - result of intersections
-uset('∪'set) - result of union
+    Julius - caesar
 
-Preference: AND(&) > OR(|) > NOT(-)
+    (osman | asaf jah) & billion 
 
+## Demo syn
+  * explain input data
+  * simple query
+  * complex query
+
+## TODO
+  * own operators
+  * refactor
+  * seek code review
