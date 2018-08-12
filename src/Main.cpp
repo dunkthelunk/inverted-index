@@ -47,7 +47,7 @@ int main() {
       std::cout << "s.\n";
     }
     for (auto TRecord : Result) {
-      std::cout << TRecord.docID() << '\n';
+      // std::cout << TRecord.docID() << '\n';
       TRPrinter.print(TRecord);
     }
     std::cout << "Enter query string (^D to exit) : ";
