@@ -33,7 +33,7 @@ Input data already present in the repo are random texts downloaded from gutenber
   Author : Louis Joseph Vance
 ```
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/dunkthelunk/inverted-index/master/resources/inverted%20index.gif "")
 
 ## TODO
 ### TermRecord Operators
