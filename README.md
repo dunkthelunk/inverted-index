@@ -3,12 +3,12 @@
 
 ## Search Interface
   * Case insensitive
-  * Complex queries can be constructed with '|', '&', and  '~'
+  * Complex queries can be constructed with '|' (or), '&' (and), '~' (not)
   * Space between words is treated as '&'
   * Examples:
  ``` 
   attack ships fire orion
-  Julius - caesar
+  Julius ~ caesar
   ((osman | nizam) ~ last) & (dollar | pound) 
 ```
 ## Build and Run
