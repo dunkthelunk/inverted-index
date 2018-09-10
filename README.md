@@ -38,3 +38,8 @@ Input data already present in the repo are random texts downloaded from gutenber
 ## TODO
 ### TermRecord Operators
 Because of the way operators are implemented, positions of all query words are not preserved. This can be fixed easily by implementing term record intersection, union and difference
+
+## Application
+### Content Based Web History Browser
+
+
